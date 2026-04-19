@@ -1,0 +1,24 @@
+site_name: Eric Ace writings
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+  custom_dir: overrides
+
+#plugins:
+#  - blog:
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Apr 13, 2026 - AI Displacement Research Project: posts/13-apr-2026/post.md
+  - Mar 7, 2026 - AI (You might be worrying about the wrong thing): posts/07-March-2026/post.md
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
