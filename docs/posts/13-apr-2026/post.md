@@ -1,4 +1,5 @@
 # AI Displacement Research Project with Claude.ai
+<small>(PRE-RELEASE DRAFT)</small>
 
 ---
 ## 1. Intro
@@ -7,61 +8,44 @@ In April of 2026 I undertook a research project using **Claude.ai** (Sonnet 4.6)
 
 > There is an emerging consensus that without policy intervention, AI and robotics will displace millions of Americans from the workforce, causing widespread unemployment.
 
-From that premise arose one question: _what will that future look like?_ I needed a framework to understand that and for some reason I thought about in the context of [transitive equality](https://www.mathwords.com/t/transitive_property.htm):
+From that premise arose one question: _what will that future look like financially for the millions of affected Americans?_ I needed a framework to guide my thinking and for some reason I thought about in the context of transitive equality:
 
 _If employment sustains people (a = b), and people sustain America (b = c), then **employment sustains America** (a = c)_
 
-If correct, then anything that systematically jeopardizes employment would seem to be bad.
+If correct, then anything jeopardizing employment on a grand scale would seem to be bad.
 
 !!! info "The main point I want you to take from this"
-    In this research project I use reason, existing data, and forecasts about AI employment displacement to make the following case: If AI adoption and associated human displacement unfolds as estimates say it will, then the resulting financial disruption will be extremely harmful.
+    In this research project I use reason, existing data, and forecasts about AI employment displacement to make the following case: If AI adoption and associated human workforce displacement unfolds as estimates say it will, then the resulting financial disruption will be extremely harmful to us all.
 
-I structured my project as a series of nine exercises, beginning with known data about our economy related to employment, and projections about job loss due to AI. I then instructed Claude.ai to forecast our economic future in a few key dimensions taking into account the relation between employment and each dimension.
+I structured my project as a series of nine exercises, beginning with known data about our economy related to employment, and projections about job loss due to AI. I then instructed Claude.ai to forecast our economic future in a few key dimensions sensitive to employment.
 
 As an example: Did you know Social Security is mainly funded by current year tax receipts? If tax receipts decrease due to unemployment then either Social Security has to be cut or the shortfall has to be made up. If you or a loved one expects to receive Social Security then this matters to you!
 
-I focused on just a few areas that I thought most readers would find impactful on a personal level. The flow of the key exercises is shown here:
+I focused on just a few areas that I thought people would find impactful on a personal level:
 
 ![Exercise Flow](exercise-flow.drawio.svg)
-
-> This is a long paper. I know it's a big ask. I know your time is valuable. I hope you get through it because I believe these ideas are important.
 
 This post is structured in seven sections and will take about an hour of your valuable time.
 
 |Section|Content|Read time (minutes)|
 |-|-|-|
 |1. Intro|What you're reading now. |2|
-|2. Summary of the Exercises|I list each research exercise and its purpose. |3|
-|3. Bottom Line Up Front|The final exercise in the project is presented first. I develop three _Personas_ and ask Claude.ai to characterize the next 20 years for each Persona, synthesizing the research from the entire project.|5|
-|4. The artifacts|These are the artifacts (the research reports) produced by Claude.ai. |15|
+|2. Bottom Line Up Front|**The final exercise in the project is presented first.** I develop three _Personas_ and ask Claude.ai to characterize the next 20 years for each Persona, synthesizing the research from the entire project.|5|
+|3. Summary of the Exercises|I list each research exercise and its purpose. |3|
+|4. The artifacts|These are the artifacts (the research reports) that Claude.ai produced based on my guidance. |15|
 |5. Abbreviated Research|This section walks through each exercise with abbreviated versions of my questions, and Claude.ai's responses. You can read this, or the full transcript.|15|
 |6. Full Project Transcript|This is the complete unaltered transcript of the research project. **If you do not yet have direct experience interacting with an LLM in the accomplishment of a complex objective, I urge you to at least scan this entire transcript.** |25|
-|7. Summation|Here I present my summation and ask you what I hope are some challenging questions. |5|
+|7. Summation|Here I present my summation and ask you what I hope are some thought-provoking questions. |5|
 
 ---
-## 2. Summary of the Exercises
+## 2. Bottom Line Up Front
 
-I designed these exercises to tell a story, starting from known data, merging that with consensus estimates of workforce displacement due to AI, and culminating in the Personas which describe the possible outcomes in a personal context:. The exercises are:
-
-|Exercise|Title                                                                    |Purpose|
-|--------|-------------------------------------------------------------------------|-------|
-|1|Current U.S. Private Sector Adult Employment                                    | Here, I establish a baseline of current private sector employment. All forecasts will be relative to this. **The private sector pays for everything**.|
-|2|Forecasted U.S. Private Sector Adult Employment Impacted by AI and Robotics     | This forecasts job losses from AI & robotics using currently available literature - of which there is an ever-growing volume.|
-|3|Average 2026 Social Security Payout by Quintile                                 | This exercise establishes baseline *Social Security payouts* from which to forecast. (This and the next are preparation for exercise 5, so you could skip right to number 5.)|
-|4|Forecasted Payroll Tax Contribution Percent                                     | This exercise forecasts Social Security *revenues* which are the basis of Social Security *payouts*. |
-|5|Forecasted Social Security Payouts as affected by AI and Robotics               | Here, Claude.ai develops forecasted Social Security payouts based on the prior exercises. (There are alarming conclusions here for those who will depend on Social Security.)|
-|6|Forecasted public sector expenditures and headcount by federal, state, and local| This section forecasts the impact on government from unemployment, since the government is funded from tax revenue. If employment goes down, tax revenue goes down. If tax revenue goes down, government employees are let go and programs are cut. (Medicare is an example of a program you might care about.)|
-|7|U.S. Equity Holdings                                                            | This exercise forecasts the value of equity holdings which directly relates to household wealth. Household wealth in turn greatly determines what kind of retirement you will have. *Spoiler alert: massive unemployment doesn't improve the wealth gap.*|
-|8|Federal Debt                                                                    | This exercise forecasts the federal debt. I felt this was impactful for two reasons: 1) it affects us all because of the outsized portion of taxes required to service the debt, and 2) defaulting on the debt would trigger an unparalleled economic crisis. **It is unthinkable**. But... well, have a look at the exercise.|
-|9|Personas                                                                        | This exercise tries to bring it all home. I present three very different *Personas*. We roll up the all research, and show how it affects each Persona differently. My hope is that you can find yourself or someone you care about in one of the Personas. |
-
----
-## 3. Bottom Line Up Front
-
-The final exercise of the project was to have Claude.ai bring together the research from the whole project, and forecast 20 years out for three different Personas that I developed. Here are the Personas as I communicated them to Claude.
+The final exercise of the project was to have Claude.ai bring together the research from the whole project, and forecast 20 years out for three different Personas that I developed.
 
 !!! note
-    Throughout this post, wherever Claude.ai is speaking, I will clearly delineate that section with **Claude.ai:**, and wherever I am speaking to Claude.ai, I use **Eric:**.
+    Throughout this post, wherever Claude.ai is speaking, I will delineate that section with **Claude.ai:**, and wherever I am speaking to Claude.ai, I use **Eric:**.
+
+Here are the Personas as I communicated them to Claude.ai:
 
 **Eric:**
 
@@ -71,19 +55,13 @@ The final exercise of the project was to have Claude.ai bring together the resea
 > 
 > Alice is divorced, 66, and expects to retire next year. Alice has been a corporate manager for her entire career. In the past 10 years she has been a senior manager earning over $250K per year. For almost her entire working life she has exceeded the social security tax cap. She has $2 million dollars saved all in a 401K in a mix of stocks and bonds.
 > 
-> Alice's expenses across all categories are about $10K/month including dining out and travel. Alice forecasts that if the future unfolds as that past has looked she will have enough income to maintain her current standard of living for the remainder of her life which statistically is about 30 years.
-> 
 > **Persona 2 - Gerard**
 > 
 > Gerard is married and has worked in the Trades for his entire life. He is 70, and has been retired for 5 years. Gerard was diligent and has about $200K saved in his 401K which is at this time mostly in fixed income assets. He relies on an annual distribution from his 401K and social security for both him and his wife to cover household expenses which are about $4000 per month.
 > 
-> Gerard's hope is to be able to continue to cover his necessary expenses from his three current income streams throughout his and his wife's retirement.
-> 
 > **Persona 3 - Betty**
 > 
 > Betty is graduating from public university this year with a bachelor's degree in information systems. She has accepted an offer to work for a company specializing in big data and analytics. Her goal is the same as most recent grads: she hopes for a long, stable career with lateral mobility and growth in responsibility and earnings.
-> 
-> Her current expenses are basic. But she hopes to own a home in a few years and build a family. She also hopes to build a retirement portfolio and have a comfortable and productive retirement in about 35 years.
 
 **Claude.ai:**
 
@@ -96,7 +74,25 @@ same underlying disruption:
 
 **Betty illustrates the broken promise to the next generation.** The contract that prior generations relied upon — work hard, build skills, earn a stable income, accumulate savings, retire comfortably — is most at risk for those, like Betty, who are entering careers precisely at the moment when AI displacement is accelerating. Her chosen field is among the highest-displacement sectors in the analysis. Her income trajectory is being compressed at the same time her life expenses are expanding. She represents the cohort that will bear the greatest burden of this transition with the least institutional support.
 
-Taken together, the three personas confirm what the macroeconomic analysis has shown across eight exercises: the AI and robotics transition, under the scenario modeled in this research, does not distribute its costs evenly. Those already in retirement with substantial savings (Alice) fare best but still face meaningful deterioration. Those in retirement with modest savings (Gerard) face acute hardship by the late 2030s. And those just beginning their working lives (Betty) face a structural environment that makes the formation of middle-class financial security considerably harder than it was for prior generations.
+!!! warning "Bottom line"
+    Taken together, the three personas confirm what the macroeconomic analysis has shown across eight exercises: the AI and robotics transition, under the scenario modeled in this research, does not distribute its costs evenly. Those already in retirement with substantial savings (Alice) fare best but still face meaningful deterioration. Those in retirement with modest savings (Gerard) face acute hardship by the late 2030s. **And those just beginning their working lives (Betty) face a structural environment that makes the formation of middle-class financial security considerably harder than it was for prior generations.**
+
+---
+## 3. Summary of the Exercises
+
+I designed these exercises to tell a story, starting from known data, merging that with consensus estimates of workforce displacement due to AI, and culminating in the Personas which describe the possible outcomes in a personal context:. The exercises are:
+
+|Exercise|Title                                                                    |Purpose|
+|--------|-------------------------------------------------------------------------|-------|
+|1|Current U.S. Private Sector Adult Employment                                    | Here, I establish a baseline of current private sector employment. All forecasts will be relative to this. **The private sector pays for everything**.|
+|2|Forecasted U.S. Private Sector Adult Employment Impacted by AI and Robotics     | This forecasts job losses from AI & robotics using currently available literature - of which there is an ever-growing volume. This is a foundational component of the research.|
+|3|Average 2026 Social Security Payout by Quintile                                 | This exercise establishes baseline *Social Security payouts* from which to forecast. (This and the next are preparation for exercise 5, so you could skip right to number 5.)|
+|4|Forecasted Payroll Tax Contribution Percent                                     | This exercise forecasts Social Security *revenues* which are the basis of Social Security *payouts*. |
+|5|Forecasted Social Security Payouts as affected by AI and Robotics               | Here, Claude.ai develops forecasted Social Security payouts based on the prior exercises. (There are alarming conclusions here for those who will depend on Social Security.)|
+|6|Forecasted public sector expenditures and headcount by federal, state, and local| This section forecasts the impact on government from unemployment, since the government is funded from tax revenue. If employment goes down, tax revenue goes down. If tax revenue goes down, government employees are let go and programs are cut. (Medicare is an example of a program you might care about.)|
+|7|U.S. Equity Holdings                                                            | This exercise forecasts the value of equity holdings which directly relates to household wealth. Household wealth in turn greatly determines what kind of retirement you will have. *Spoiler alert: massive unemployment doesn't improve the wealth gap.*|
+|8|Federal Debt                                                                    | This exercise forecasts the federal debt. I felt this was impactful for two reasons: 1) it affects us all because of the outsized portion of taxes required to service the debt, and 2) defaulting on the debt would trigger an unparalleled economic crisis. **It is unthinkable**. But... well, have a look at the exercise.|
+|9|Personas                                                                        | This exercise tries to bring it all home. I present three very different *Personas*. We roll up the all research, and show how it affects each Persona differently. My hope is that you can find yourself or someone you care about in one of the Personas. |
 
 ---
 ## 4. The Artifacts
@@ -118,9 +114,9 @@ In addition to supporting the conclusions of the research, I hope you can apprec
 ---
 ## 5. Abbreviated Research
 
-> If you wish, you can skip this section and read the full transcript.
+> If you wish, you can skip this section and read the Full Project Transcript (link to the right.)
 
-In this section I present an edited, abbreviated version of the project. The full research project is available in the Full Project Transcript section. Here I'm trying to capture a more concise flow of the dialog between me and Claude.ai. I also highlight and call out things that aren't highlighted or called out in the raw transcript.
+In this section I present an edited, abbreviated version of the project. Here I'm trying to capture a more concise flow of the dialog between me and Claude.ai. I also highlight and call out things that aren't highlighted or called out in the raw transcript.
 
 Here is how I framed the project to Claude.ai:
 
@@ -407,8 +403,8 @@ This exercise was summarized in the Bottom Line Up Front section. Feel free to r
 ---
 ## 6. Full Project Transcript
 
-!!! info
-    As stated in the introduction, if you do not have hands-on experience yet working with LLMs or other intelligent agents I urge you to at least scan through the full transcript, because it will help you get a much better understanding of what's coming. Remember - these systems are in their infancy today.
+!!! info "Please Note"
+    As stated in the introduction, if you do not have hands-on experience yet working with LLMs or other intelligent agents I urge you to at least scan through the full transcript, because it will help you get a much better understanding of what's coming. Remember - these systems are in their infancy today and already their capability approaches human-level is some areas.
 
 [Click this link for the full transcript](full-transcript.md){target="_blank"}. (It is another page in this blog.)
 
@@ -419,11 +415,11 @@ If you made it all the way here: **Thank you!** I have a few points to make in c
 
 I invested many hours in this project: envisioning, structuring, writing the exercises, ensuring consistency, evaluating the responses, writing this post. During each interaction with Claude.ai I was watching the elapsed time. Across the nine exercises and the closing, to produce everything you see here, **Claude.ai expended 30 minutes total clock time.**
 
-While Claude.ai was doing my research project, running in data centers all over America, it was _at the same time_ doing thousands of other things for millions of people in every realm of human expertise: art, music, law, science, math, history, language translation, and on, and on.
+While Claude.ai was working on my research project, running in data centers all over America, it was _at the same time_ doing thousands of other things for millions of people in every realm of human expertise: art, music, law, science, math, history, language translation, and on, and on.
 
 Did you look at the full transcript? Did you look at the artifacts? If you didn't please at least go through the artifacts. If I was your employer and I tasked you with this research project could you have done it? It would have involved assimilating dozens of open source datasets, learning complex domain-specific financial terms and methods, normalizing disparate data sources, building and checking and formatting reports. How long would it have taken you? My guess - for myself - is that full time it would take me at least 8 weeks. That's 400 hours (at 50 hours a week.) Claude.ai did it in 30 minutes.
 
-Do you have experience working with LLMs to solve complex problems? If not - please look at the full transcript and the artifacts. Did you know that the LLMs are capable of performing at this level? If you believe what leaders in the field say, today's capability is equivalent to a two-year old learning to use a shape-sorter. **The next 20 years could be like nothing seen in the last 250,000 years of human history.**
+Do you have experience working with LLMs to solve complex problems? **If not - please look at the full transcript and the artifacts.** Did you know that the LLMs were capable of performing at this level? If you believe what leaders in the field say, today's capability is equivalent to a two-year old learning to use a shape-sorter. **The next 20 years could be like nothing seen in the last 250,000 years of human history.**
 
 Claude.ai's web-based research cited multiple projections of U.S. job loss from AI and Robotics. Our capitalist system will embrace this. **It has to.** There's only one problem:
 
@@ -434,14 +430,17 @@ Our American system was devised with many countervailing forces but two among th
 1. Capitalism drives innovation and wealth.
 2. Regulation limits enterprise when its by-products jeopardize quality of life. (Think: pollution, child labor, etc.)
 
-What I want you to take away from this post is that at this particular moment in our history, capitalism is running amok in the realm of AI. Meantime, our elected leadership is woefully uninformed. In fact, just by having read this post I suspect that you are better informed about the capabilities and risks of AI than 95% of Congress or any State House.
+What I want you to take away from this post is that at this particular moment in our history, capitalism is running amok in the realm of AI. Meantime, our elected leaders are woefully uninformed. In fact, just by having read this post I suspect that you are better informed about the capabilities and risks of AI than 95% of Congress or any State House.
 
-There is a global community driving AI forward: **hundreds of thousands** of researchers, academics and engineers working across corporations and universities world-wide. They all share with (or steal from) each other. This massive global community is _singularly_ focused on continually enhancing AI and robotics with no end goal or terminal state in mind. I want to say that more clearly: **there is no moral construct guiding this effort.**
+There is a global community driving AI forward: **hundreds of thousands** of researchers, academics and engineers working across corporations and universities world-wide. They all share with (or steal from) each other. This massive global community is _singularly_ focused on continually enhancing AI and robotics with no end goal or terminal state in mind. I want to say that more clearly: **there is no overarching moral construct guiding this effort.**
 
 What community are you part of?
 
-With no community of people to offset the AI juggernaut, how can AI deployment possibly be influenced, steered, or tempered?
+With no community of people to offset the AI juggernaut, how can AI deployment possibly be influenced, steered, or tempered to our nation's benefit?
 
-Maybe you disagree with my research method, or the conclusions developed by Claude.ai. If so: **prove us wrong: Do the research yourself.** But if there's even a chance that these forecasts will come to pass then doesn't it make sense to prevent it from occurring rather than trying to repair it once everything is broken?
+Maybe you disagree with my research method, or the conclusions developed by Claude.ai. If so: **prove us wrong: Do the research yourself.** But if there's even a chance that these forecasts will unfold as my research has highlighted, then doesn't it make sense to prevent it from occurring rather than trying to repair it once things start to fail?
 
-If you share my concern, then minimally what you can do is begin to build community with others who also share this apprehension. And you can begin to dialog with your elected leadership. Without a consensus view among citizens and leaders to offset the AI movement there is no balancing force to steer the deployment of AI in a beneficial direction **economically**. And without that - nothing will stop the displacement of people by machines, with all the negative consequences that this research has clearly identified.
+If you share my concern, then minimally what you can do is begin to build community with others who also share this apprehension. And you can begin to dialog with your elected leadership. Without a consensus view among citizens and leaders to offset the AI movement there is no balancing force to steer the deployment of AI in a beneficial direction **economically**. And without that - nothing will stop the displacement of people by machines, with all the attendant consequences that this research is warning about.
+
+\- Eric Ace, April 2026
+

@@ -1,3 +1,5 @@
+# must 'mkdocs gh-deploy' to create the branch...
+---
 name: documentation
 
 on:
