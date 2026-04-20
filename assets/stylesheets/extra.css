@@ -1,0 +1,28 @@
+/* Remove margins between list items */
+.md-typeset ul li, 
+.md-typeset ol li {
+    margin-bottom: 0em; /* Adjust this value as needed */
+}
+
+/* Remove bottom margin of paragraphs inside list items */
+.md-typeset li p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* Scale all images to fit the container width */
+article img {
+  width: 100%;
+  height: auto;
+}
+
+/* Change thickness of horizontal rule via border width */
+.md-typeset hr {
+  border-bottom: 3px solid #ADF;
+}
+
+/* Increase font size for the content and title of admonitions */
+.md-typeset .admonition, 
+.md-typeset details {
+  font-size: 0.8rem; /* Adjust this value as needed (default is roughly 0.8rem) */
+}
