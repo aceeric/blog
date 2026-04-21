@@ -1,5 +1,5 @@
 # AI Displacement Research Project with Claude.ai
-<small>(PRE-RELEASE DRAFT)</small>
+Disclaimer: This content is too dense to view on a mobile device and is formatted for a desktop browser.
 
 ---
 ## 1. Intro
@@ -19,7 +19,7 @@ If correct, then anything jeopardizing employment on a grand scale would seem to
 
 I structured my project as a series of nine exercises, beginning with known data about our economy related to employment, and projections about job loss due to AI. I then instructed Claude.ai to forecast our economic future in a few key dimensions sensitive to employment.
 
-As an example: Did you know Social Security is mainly funded by current year tax receipts? If tax receipts decrease due to unemployment then either Social Security has to be cut or the shortfall has to be made up. If you or a loved one expects to receive Social Security then this matters to you!
+As an example: Social Security is mainly funded by current year tax receipts. If tax receipts decrease due to unemployment then either Social Security has to be cut or the shortfall has to be made up. If you or a loved one expects to receive Social Security then this matters to you!
 
 I focused on just a few areas that I thought people would find impactful on a personal level:
 
@@ -97,7 +97,9 @@ I designed these exercises to tell a story, starting from known data, merging th
 ---
 ## 4. The Artifacts
 
-In addition to supporting the conclusions of the research, I hope you can appreciate the breadth, thoroughness, and professionalism of these documents that were created by Claude.ai. You can refer to these work products as you read the Abbreviated Research and the Full Project Transcript:
+In addition to supporting the conclusions of the research, I hope you can appreciate the breadth, thoroughness, and professionalism of these documents that were created by Claude.ai.
+
+You can refer to these work products as you read the Abbreviated Research or the Full Project Transcript, but I would encourage you to start with the Exercise two artifacts to see the sheer number of people that the research forecasts will be jobless over the coming years. This modeling is pulled through the entire project:
 
 - [Exercise 1 - Current US Private Sector Adult Employment](Exercise-1-Current-US-Private-Sector-Adult-Employment.pdf){target="_blank"}
 - [Exercise 2 - Forecasted US Private Sector Adult Employment Impacted by AI and Robotics](Exercise-2-Forecasted-US-Private-Sector-Adult-Employment-Impacted-by-AI-and-Robotics.pdf){target="_blank"}
@@ -413,13 +415,13 @@ This exercise was summarized in the Bottom Line Up Front section. Feel free to r
 
 If you made it all the way here: **Thank you!** I have a few points to make in closing.
 
-I invested many hours in this project: envisioning, structuring, writing the exercises, ensuring consistency, evaluating the responses, writing this post. During each interaction with Claude.ai I was watching the elapsed time. Across the nine exercises and the closing, to produce everything you see here, **Claude.ai expended 30 minutes total clock time.**
+I invested many hours in this project: envisioning, structuring, writing the exercises, ensuring consistency, evaluating the responses, writing this post. During each interaction with Claude.ai I was watching the elapsed time. Across the nine exercises and the closing, to produce everything you see here, Claude.ai expended **30 minutes total clock time.**
 
 While Claude.ai was working on my research project, running in data centers all over America, it was _at the same time_ doing thousands of other things for millions of people in every realm of human expertise: art, music, law, science, math, history, language translation, and on, and on.
 
-Did you look at the full transcript? Did you look at the artifacts? If you didn't please at least go through the artifacts. If I was your employer and I tasked you with this research project could you have done it? It would have involved assimilating dozens of open source datasets, learning complex domain-specific financial terms and methods, normalizing disparate data sources, building and checking and formatting reports. How long would it have taken you? My guess - for myself - is that full time it would take me at least 8 weeks. That's 400 hours (at 50 hours a week.) Claude.ai did it in 30 minutes.
+Did you look at the full transcript and artifacts? If you didn't please at least go through the artifacts. If I was your employer and I tasked you with this research could you have done it? It would have involved assimilating dozens of open source datasets, learning complex domain-specific financial terms and methods, normalizing data sources, building and checking and formatting reports. How long would it have taken you? My guess - for myself - is that full time it would take me at least 8 weeks. That's 400 hours (at 50 hours a week.) Claude.ai did it in 30 minutes.
 
-Do you have experience working with LLMs to solve complex problems? **If not - please look at the full transcript and the artifacts.** Did you know that the LLMs were capable of performing at this level? If you believe what leaders in the field say, today's capability is equivalent to a two-year old learning to use a shape-sorter. **The next 20 years could be like nothing seen in the last 250,000 years of human history.**
+Do you have experience working with LLMs to solve complex problems? **If not - please look at the full transcript and the artifacts.** Did you know that the LLMs were capable of performing at this level? If you believe what leaders in the field say, today's capability is equivalent to a two-year old learning to use a shape-sorter. **The next 20 years will likely produce almost unimaginable capability.**
 
 Claude.ai's web-based research cited multiple projections of U.S. job loss from AI and Robotics. Our capitalist system will embrace this. **It has to.** There's only one problem:
 
@@ -430,17 +432,19 @@ Our American system was devised with many countervailing forces but two among th
 1. Capitalism drives innovation and wealth.
 2. Regulation limits enterprise when its by-products jeopardize quality of life. (Think: pollution, child labor, etc.)
 
-What I want you to take away from this post is that at this particular moment in our history, capitalism is running amok in the realm of AI. Meantime, our elected leaders are woefully uninformed. In fact, just by having read this post I suspect that you are better informed about the capabilities and risks of AI than 95% of Congress or any State House.
+What I hope you take away from this post is that at this particular moment in our history, capitalism is running amok in the realm of AI. Meantime, our elected leaders are woefully uninformed. In fact, just by having read this post I suspect that you are better informed about the capabilities and risks of AI than 95% of Congress or any State House.
 
-There is a global community driving AI forward: **hundreds of thousands** of researchers, academics and engineers working across corporations and universities world-wide. They all share with (or steal from) each other. This massive global community is _singularly_ focused on continually enhancing AI and robotics with no end goal or terminal state in mind. I want to say that more clearly: **there is no overarching moral construct guiding this effort.**
+There is a global community driving AI forward: **hundreds of thousands** of researchers, academics and engineers working across corporations and universities world-wide. This massive global community is _singularly_ focused on continually enhancing AI and robotics with no end goal or terminal state in mind. I want to say that more clearly: **there is no overarching moral construct guiding this effort.**
 
 What community are you part of?
 
 With no community of people to offset the AI juggernaut, how can AI deployment possibly be influenced, steered, or tempered to our nation's benefit?
 
-Maybe you disagree with my research method, or the conclusions developed by Claude.ai. If so: **prove us wrong: Do the research yourself.** But if there's even a chance that these forecasts will unfold as my research has highlighted, then doesn't it make sense to prevent it from occurring rather than trying to repair it once things start to fail?
+Maybe you disagree with my research method, or the conclusions developed by Claude.ai. If so: **prove us wrong: Do the research yourself.** But if there's even a chance that these forecasts could unfold as my research suggests, then doesn't it make sense to prevent it from occurring rather than trying to repair it once things start to fail?
 
-If you share my concern, then minimally what you can do is begin to build community with others who also share this apprehension. And you can begin to dialog with your elected leadership. Without a consensus view among citizens and leaders to offset the AI movement there is no balancing force to steer the deployment of AI in a beneficial direction **economically**. And without that - nothing will stop the displacement of people by machines, with all the attendant consequences that this research is warning about.
+If you share my concern, then minimally what you can do is begin to build community with others who also share this apprehension. And you can begin to dialog with your elected leadership.
+
+Without a consensus view among citizens and leaders to offset the AI movement there is no balancing force to steer the deployment of AI in an economically beneficial direction. And without that steering force - nothing will stop the displacement of people by machines, with all the attendant perils that this research is warning of.
 
 \- Eric Ace, April 2026
 
